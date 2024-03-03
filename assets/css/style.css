@@ -10,16 +10,17 @@
 }
 
 
-/* Header style goes here */
-header {
-    background-color: #3C9AAF;
-}
-
 body {
+    /* This step is taken from the CI walkthrought project instruction*/
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     color: #011C2A;
+}
+
+/* Header style goes here */
+header {
+    background-color: #3C9AAF;
 }
 
 /* Main style goes here */
