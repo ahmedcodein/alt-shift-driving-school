@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #011C2A;
+    font-family: 'Ruda', sans-serif;
 }
 
 /* Header style goes here */
