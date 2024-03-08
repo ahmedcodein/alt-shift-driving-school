@@ -27,24 +27,31 @@ header {
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 2px;
     border: 1px solid #011C2A;   
     
 }
 
 .hdr-subcontainer-1 {
-    flex-basis: 33%;
+    flex-basis: 20%;
     border: 1px solid #011C2A;
 }
 
 .hdr-subcontainer-2 {
-    flex-basis: 33%;
     border: 1px solid #011C2A;
+    background: url('../images/logo.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 10rem;
+    width: 10rem;
+
 
 }
 
 .hdr-subcontainer-3 {
-    flex-basis: 33%;
+    flex-basis: 20%;
     border: 1px solid #011C2A;
 }
 
