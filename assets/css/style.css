@@ -49,11 +49,10 @@ header {
     flex-shrink: 1;
     height: 6rem;
     width: 6rem;
-
 }
 
 .hdr-subcontainer-3 {
-    flex-basis: 5%;
+    flex-basis: 10%;
     border: 1px solid #011C2A;
     font-size: 80%;
 }
@@ -76,6 +75,20 @@ a {
     text-decoration: none;
 }
 
+
+nav {
+    position: absolute;
+    left: .8rem;
+    top: 6.5rem;
+}
+
+#toggle:checked~nav {
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
 
 
 
