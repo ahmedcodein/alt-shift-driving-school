@@ -50,11 +50,10 @@ header {
     height: 6rem;
     width: 6rem;
 
-
 }
 
 .hdr-subcontainer-3 {
-    flex-basis: 15%;
+    flex-basis: 5%;
     border: 1px solid #011C2A;
     font-size: 80%;
 }
@@ -67,16 +66,26 @@ header {
     font-size: 100%;
 }
 
+#menu {
+    list-style-type: none;
+    letter-spacing: 3px; 
+    font-size: 100%;   
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
 /* Main style goes here */
 main {
     background-color: #fff;
     /* Allow the main element to span most of the page */
     /* This step is taken from the CI walkthrought project instruction*/
     flex: 1 0 auto;
-
-
 }
-
 /* Footer style goes here */
 footer {
     background-color: #011C2A;
