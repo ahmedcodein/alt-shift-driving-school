@@ -124,15 +124,24 @@ footer {
     list-style-type: none;
     display: flex;    
     height: 8vh;
-    width: 40%;
-    justify-content: space-around;
+    width: 80%;
+    justify-content: space-between;
     align-items: flex-end;
+
+}
+
+.footer-subcontainer-2 {
+    font-size: 10px;
 }
 
 .social-media-icon {
     color: #fff;
     font-size: xx-large;
 
+}
+
+.footer-subcontainer-1 ul li {
+    margin-right: 2rem;
 }
 
 /* Breakpoint critieria: media query for 768px and up */
@@ -163,4 +172,17 @@ nav {
     justify-content: space-around;
 }
 
+/* Change footer-subcontainers width to decrease the distance between social media icons
+and increase the font size of disclaimer */
+
+.footer-subcontainer-1 {
+    width: 40%;
 }
+
+.footer-subcontainer-2 {
+    font-size: 15px;
+}
+
+}
+
+
