@@ -21,12 +21,12 @@ body {
 
 /* Header style goes here */
 header {
-    background-color: #3C9AAF;
+    background-color: #fff;
 }
 
 /* Main style goes here */
 main {
-    background-color: #E1E9EC;
+    background-color: #fff;
     /* Allow the main element to span most of the page */
     /* This step is taken from the CI walkthrought project instruction*/
     flex: 1 0 auto;
