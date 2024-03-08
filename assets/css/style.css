@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #011C2A;
-    font-family: 'Ruda', sans-serif;
+    font-family: 'Hind', sans-serif;
 }
 
 /* Header style goes here */
@@ -28,7 +28,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    min-height: 20vh;
+    min-height: 15vh;
     margin: 2px;
     border: 1px solid #011C2A;   
     
@@ -47,8 +47,8 @@ header {
     background-repeat: no-repeat;
     align-self: center;
     flex-shrink: 1;
-    height: 7rem;
-    width: 7rem;
+    height: 6rem;
+    width: 6rem;
 
 
 }
@@ -60,11 +60,11 @@ header {
 }
 
 .hdr-subcontainer-1 h1 {
-    font-size: 90%;
+    font-size: 200%;
 }
 
 .hdr-subcontainer-1 h2 {
-    font-size: 60%;
+    font-size: 100%;
 }
 
 /* Main style goes here */
