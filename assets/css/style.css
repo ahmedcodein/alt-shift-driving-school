@@ -112,6 +112,7 @@ footer {
     color: #E1E9EC;
 }
 
+
 /* Breakpoint critieria: media query for 768px and up */
 @media screen and (min-width: 768px) {
 /* change the header-container to flex column to show the menu horizontally */
