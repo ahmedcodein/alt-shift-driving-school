@@ -55,11 +55,13 @@ header {
 
 .hdr-subcontainer-2 h1 {
     font-size: 200%;
+    text-align: center;
 }
 
 .hdr-subcontainer-2 h2 {
     font-size: 100%;
     line-height: 100%;
+    text-align: center;
 }
 
 #menu {
