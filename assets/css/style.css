@@ -110,6 +110,7 @@ main {
 footer {
     background-color: #011C2A;
     color: #fff;
+    height: 15vh;
 }
 
 .footer-container {
@@ -120,16 +121,17 @@ footer {
 }
 
 .footer-subcontainer-1 {
-    border: 2px solid #fff;
     list-style-type: none;
-}
-
-.footer-container-2 {
-    border: 2px solid #fff;
+    display: flex;    
+    height: 8vh;
+    width: 40%;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
 .social-media-icon {
     color: #fff;
+    font-size: xx-large;
 
 }
 
