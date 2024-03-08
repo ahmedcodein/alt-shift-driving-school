@@ -27,25 +27,25 @@ header {
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     min-height: 15vh;
-    margin: 2px;  
+    margin: 0px 5px 0px 5px;
     
 }
 
 .hdr-subcontainer-1 {
-    flex-basis: 30%;
-}
-
-.hdr-subcontainer-2 {
     background: url('../images/logo.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     align-self: center;
-    flex-shrink: 1;
-    height: 6rem;
-    width: 6rem;
+    height: 4.5rem;
+    width: 4.5rem;
+}
+
+.hdr-subcontainer-2 {
+    flex-basis: 30%;
+    min-height: 90px;
 }
 
 .hdr-subcontainer-3 {
@@ -53,11 +53,11 @@ header {
     font-size: 80%;
 }
 
-.hdr-subcontainer-1 h1 {
+.hdr-subcontainer-2 h1 {
     font-size: 200%;
 }
 
-.hdr-subcontainer-1 h2 {
+.hdr-subcontainer-2 h2 {
     font-size: 100%;
     line-height: 100%;
 }
@@ -65,7 +65,7 @@ header {
 #menu {
     list-style-type: none;
     letter-spacing: 3px;
-    padding-left: 10px; 
+    padding-left: 20px; 
     font-size: 100%;
     font-weight: 900;
 }
@@ -78,13 +78,14 @@ a {
 nav {
     position: absolute;
     left: 0;
-    top: 6.5rem;
+    top: 6.7rem;
     background-color: #fff;
     width: 100%;
+    display: none;
 }
 
 #toggle:checked~nav {
-    display: none;
+    display: block;
 }
 
 #toggle {
@@ -101,6 +102,7 @@ main {
     /* Allow the main element to span most of the page */
     /* This step is taken from the CI walkthrought project instruction*/
     flex: 1 0 auto;
+    margin-top: 5px;
 }
 /* Footer style goes here */
 footer {
