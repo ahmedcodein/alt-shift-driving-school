@@ -109,3 +109,34 @@ footer {
     background-color: #011C2A;
     color: #E1E9EC;
 }
+
+/* Breakpoint critieria: media query for 768px and up */
+@media screen and (min-width: 768px) {
+/* change the header-container to flex column to show the menu horizontally */
+
+nav {
+    display: block;
+    position: relative;
+    top: 0;
+    
+}
+#menu {
+    display: flex;
+    padding-left: 0;
+    width: 16rem;
+}
+
+.toggle-label {
+    display: none;
+}
+
+#menu li {
+    padding-right: 2rem;
+}
+
+}
+
+.header-container {
+    justify-content: space-around;
+
+}
