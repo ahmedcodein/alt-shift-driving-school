@@ -98,6 +98,9 @@ nav {
     font-size: xxx-large;
 }
 
+.active {
+    border-bottom: 2px solid #011C2A;
+}
 /* Main style goes here */
 main {
     background-color: #fff;
