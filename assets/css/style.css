@@ -118,9 +118,8 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 100vw;
     height: 50vh;
-    margin: 1px;
 }
 
 .section-subcontainer-0 {
@@ -130,11 +129,6 @@ main {
     height: 140px;
     width: 330px;
     text-transform: uppercase;
-    padding: 20px;
-    font-size: 150%;
-    position: relative;
-    left: 100px;
-    top: 300px;
 }
 
 
