@@ -112,6 +112,33 @@ main {
     margin-top: 5px;
 }
 
+.section-container-0 {
+    border: 1px solid #011C2A;
+    
+
+}
+
+.section-subcontainer-0 {
+    border: 1px solid #011C2A;
+    margin: 1px;
+}
+
+.section-container {
+    border: 1px solid #011C2A;
+    
+
+}
+
+.section-subcontainer-1 {
+    border: 1px solid #011C2A;
+    margin: 1px;
+}
+
+.section-subcontainer-2 {
+    border: 1px solid #011C2A;
+    margin: 1px;
+}
+
 /* Footer style goes here */
 footer {
     background-color: #011C2A;
