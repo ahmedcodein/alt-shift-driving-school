@@ -114,14 +114,26 @@ main {
 
 .section-container-0 {
     border: 1px solid #011C2A;
-    
-
+    background: url('/assets/images/home.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    margin: 1px;
 }
 
 .section-subcontainer-0 {
     border: 1px solid #011C2A;
-    margin: 1px;
+    background-color: #011C2A;
+    color: #fff;
+    height: 40px;
+    width: 80px;
+    position: relative;
+    left: 100px;
+    top: 400px;
 }
+
 
 .section-container {
     display: flex;
