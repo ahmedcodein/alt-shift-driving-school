@@ -169,8 +169,19 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     color: #fff;
     width: 50vw;
     height: 24vw;
+    display: flex;
+    align-items: center;
 }
 
+.subcontainer-child {
+    background-color: #fff;
+    position: absolute;
+    height: 25rem;
+    width: 25rem;
+    left: 65vw;
+    top: 75vh;
+
+}
 /* Footer style goes here */
 footer {
     background-color: #011C2A;
