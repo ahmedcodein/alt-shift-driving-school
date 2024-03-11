@@ -124,6 +124,7 @@ main {
 }
 
 .section-container {
+    display: flex;
     border: 1px solid #011C2A;
     
 
