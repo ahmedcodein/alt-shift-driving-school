@@ -30,7 +30,7 @@ header {
     justify-content: space-between;
     min-height: 15vh;
     margin: 0px 5px 0px 5px;
-    
+
 }
 
 .hdr-subcontainer-1 {
@@ -67,13 +67,13 @@ header {
 #menu {
     list-style-type: none;
     letter-spacing: 3px;
-    padding-left: 20px; 
+    padding-left: 20px;
     font-size: 100%;
     font-weight: 900;
 }
 
 a {
-    text-decoration: none;    
+    text-decoration: none;
     color: #011C2A;
 }
 
@@ -103,6 +103,7 @@ nav {
 .active {
     border-bottom: 2px solid #011C2A;
 }
+
 /* Main style goes here */
 main {
     background-color: #fff;
@@ -114,7 +115,7 @@ main {
 
 /* First section style of the main content goes here */
 /* The design idea of this section is inspired by CI's student
-project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.html */ 
+project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.html */
 
 .section-container-0 {
     border: 1px solid #011C2A;
@@ -124,6 +125,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     background-size: cover;
     width: 100vw;
     height: 50vh;
+    /* Make the section style responsive to multiple screen sizes */
     display: flex;
     align-items: flex-end;
 }
@@ -135,6 +137,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     height: 5rem;
     width: 10rem;
     text-transform: uppercase;
+    /* Allow the subcontainer position to adjust to the screen size */
     position: absolute;
     left: 10vw;
     top: 57vh;
@@ -144,7 +147,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 .section-container {
     display: flex;
     border: 1px solid #011C2A;
-    
+
 
 }
 
@@ -174,7 +177,7 @@ footer {
 
 .footer-subcontainer-1 {
     list-style-type: none;
-    display: flex;    
+    display: flex;
     height: 8vh;
     width: 80%;
     justify-content: space-between;
@@ -198,43 +201,42 @@ footer {
 
 /* Breakpoint critieria: media query for 768px and up */
 @media screen and (min-width: 768px) {
-/* change the header-container to flex column to show the menu horizontally */
+    /* change the header-container to flex column to show the menu horizontally */
 
-nav {
-    display: block;
-    position: relative;
-    top: 0;
-    
-}
-#menu {
-    display: flex;
-    padding-left: 0;
-    width: 16rem;
-}
+    nav {
+        display: block;
+        position: relative;
+        top: 0;
 
-.toggle-label {
-    display: none;
-}
+    }
 
-#menu li {
-    padding-right: 2rem;
-}
+    #menu {
+        display: flex;
+        padding-left: 0;
+        width: 16rem;
+    }
 
-.header-container {
-    justify-content: space-around;
-}
+    .toggle-label {
+        display: none;
+    }
 
-/* Change footer-subcontainers width to decrease the distance between social media icons
+    #menu li {
+        padding-right: 2rem;
+    }
+
+    .header-container {
+        justify-content: space-around;
+    }
+
+    /* Change footer-subcontainers width to decrease the distance between social media icons
 and increase the font size of disclaimer */
 
-.footer-subcontainer-1 {
-    width: 40%;
+    .footer-subcontainer-1 {
+        width: 40%;
+    }
+
+    .footer-subcontainer-2 {
+        font-size: 15px;
+    }
+
 }
-
-.footer-subcontainer-2 {
-    font-size: 15px;
-}
-
-}
-
-
