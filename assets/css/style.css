@@ -154,11 +154,17 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 .section-subcontainer-1 {
     border: 1px solid #011C2A;
     margin: 1px;
+    width: 50vw;
+    height: 24vw;
 }
 
 .section-subcontainer-2 {
     border: 1px solid #011C2A;
     margin: 1px;
+    background-color: #011C2A;
+    color: #fff;
+    width: 50vw;
+    height: 24vw;
 }
 
 /* Footer style goes here */
