@@ -173,6 +173,29 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     height: 24vw;
 }
 
+.section-subcontainer-31 {
+    border: 1px solid #011C2A;
+    margin: 1px;
+    background: url('/assets/images/why-us.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50vw;
+    height: 24vw;
+}
+
+.section-subcontainer-32 {
+    border: 1px solid #011C2A;
+    margin: 1px;
+    background-color: #011C2A;
+    color: #fff;
+    width: 50vw;
+    height: 24vw;
+    display: flex;
+    align-items: center;
+}
+
+
 /* Footer style goes here */
 footer {
     background-color: #011C2A;
