@@ -305,4 +305,10 @@ and increase the font size of disclaimer */
         font-size: 15px;
     }
 
+    /* Reverse subcontainer positions in bigger screens for better contrast */
+
+    .section-container-2 {
+        flex-direction: row-reverse;
+    }
+
 }
