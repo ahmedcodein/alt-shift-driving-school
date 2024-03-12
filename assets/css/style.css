@@ -277,7 +277,56 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     font-size: 90%;
 }
 
-.plans-section-subcontainer-12 {
+/* Sections style of the main content of the contact page goes here */
+
+.contact-section-container-0 {
+    border: 1px solid #011C2A;
+    background: url('../images/home.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+    /* Make the section style responsive to multiple screen sizes */
+    display: flex;
+    align-items: flex-end;
+}
+
+.contact-section-subcontainer-0 {
+    border: 1px solid #011C2A;
+    background-color: #011C2A;
+    color: #fff;
+    height: 5rem;
+    width: 10rem;
+    text-transform: uppercase;
+    /* Allow the subcontainer position to adjust to the screen size */
+    position: absolute;
+    left: 10vw;
+    top: 57vh;
+}
+
+.contact-section-container-1 {
+    display: flex;
+    border: 1px solid #011C2A;
+    margin-top: 2rem;
+    /* allow for responsiveness */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-section-subcontainer-11 {
+    border: 1px solid #011C2A;
+    margin: 5px;
+    background-color: #011C2A;
+    color: #fff;
+    width: 600px;
+    height: 300px;
+    font-size: 90%;
+}
+
+.contact-section-subcontainer-12 {
     border: 1px solid #011C2A;
     margin: 5px;
     width: 700px;
@@ -287,8 +336,6 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
 
 /* Footer style goes here */
 footer {
