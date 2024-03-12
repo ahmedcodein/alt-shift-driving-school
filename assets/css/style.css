@@ -332,10 +332,12 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 /* Contact form style goes here */
 /* Adopted from the CI walkthrough project */
 #contact-form {
-    border: 2px solid #fff;
+    border: .5px solid #fff;
     width: 50%;
     font-size: 100%;
     margin: 2px 2px 2px 2px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
     color: rgba(255, 255, 255, 0.9);
 }
 
