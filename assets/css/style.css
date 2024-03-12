@@ -111,7 +111,7 @@ main {
     /* Allow the main element to span most of the page */
     /* This step is taken from the CI walkthrought project instruction*/
     flex: 1 0 auto;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 /* Sections style of the main content of the home page goes here */
