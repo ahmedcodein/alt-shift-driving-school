@@ -330,16 +330,6 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     align-items: center;
 }
 
-.contact-section-subcontainer-11 {
-    border: 1px solid #011C2A;
-    margin: 5px;
-    background-color: #011C2A;
-    color: #fff;
-    width: 600px;
-    height: 300px;
-    font-size: 90%;
-}
-
 /* Contact form style goes here */
 /* Adopted from the CI walkthrough project */
 #contact-form {
