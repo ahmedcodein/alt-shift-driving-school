@@ -321,6 +321,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 .contact-section-container-1 {
     display: flex;
     border: 1px solid #011C2A;
+    background-color: #011C2A;
     margin-top: 2rem;
     /* allow for responsiveness */
     display: flex;
