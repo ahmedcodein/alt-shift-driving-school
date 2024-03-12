@@ -113,13 +113,13 @@ main {
     margin-top: 5px;
 }
 
-/* First section style of the main content goes here */
+/* First section style of the main content of the home page goes here */
 /* The design idea of this section is inspired by CI's student
 project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.html */
 
 .section-container-0 {
     border: 1px solid #011C2A;
-    background: url('/assets/images/home.webp');
+    background: url('../images/home.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -181,7 +181,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     margin: 5px;
     width: 700px;
     height: 300px;
-    background: url('/assets/images/traffic-signs.webp');
+    background: url('../images/traffic-signs.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -202,7 +202,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     margin: 5px;
     width: 600px;
     height: 300px;
-    background: url('/assets/images/why-us.webp');
+    background: url('../images/why-us.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -225,6 +225,69 @@ h5 {
     margin-left: 3rem;
     font-size: 100%;
 }
+
+/* First section style of the main content of the plans page goes here */
+/* The design idea of this section is inspired by CI's student
+project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.html */
+
+.section-container-0 {
+    border: 1px solid #011C2A;
+    background: url('../images/home.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+    /* Make the section style responsive to multiple screen sizes */
+    display: flex;
+    align-items: flex-end;
+}
+
+.section-subcontainer-0 {
+    border: 1px solid #011C2A;
+    background-color: #011C2A;
+    color: #fff;
+    height: 5rem;
+    width: 10rem;
+    text-transform: uppercase;
+    /* Allow the subcontainer position to adjust to the screen size */
+    position: absolute;
+    left: 10vw;
+    top: 57vh;
+}
+
+.section-container-1 {
+    display: flex;
+    border: 1px solid #011C2A;
+    margin-top: 2rem;
+    /* allow for responsiveness */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section-subcontainer-21 {
+    border: 1px solid #011C2A;
+    margin: 5px;
+    background-color: #011C2A;
+    color: #fff;
+    width: 600px;
+    height: 300px;
+    font-size: 90%;
+}
+
+.section-subcontainer-22 {
+    border: 1px solid #011C2A;
+    margin: 5px;
+    width: 700px;
+    height: 300px;
+    background: url('/assets/images/traffic-signs.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 /* Footer style goes here */
