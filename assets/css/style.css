@@ -230,7 +230,7 @@ h5 {
 /* The design idea of this section is inspired by CI's student
 project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.html */
 
-.section-container-0 {
+.plans-section-container-0 {
     border: 1px solid #011C2A;
     background: url('../images/home.webp');
     background-position: center;
@@ -243,7 +243,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     align-items: flex-end;
 }
 
-.section-subcontainer-0 {
+.plans-section-subcontainer-0 {
     border: 1px solid #011C2A;
     background-color: #011C2A;
     color: #fff;
@@ -256,7 +256,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     top: 57vh;
 }
 
-.section-container-1 {
+.plans-section-container-1 {
     display: flex;
     border: 1px solid #011C2A;
     margin-top: 2rem;
@@ -267,7 +267,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     align-items: center;
 }
 
-.section-subcontainer-21 {
+.plans-section-subcontainer-11 {
     border: 1px solid #011C2A;
     margin: 5px;
     background-color: #011C2A;
@@ -277,7 +277,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     font-size: 90%;
 }
 
-.section-subcontainer-22 {
+.plans-section-subcontainer-12 {
     border: 1px solid #011C2A;
     margin: 5px;
     width: 700px;
