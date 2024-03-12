@@ -144,7 +144,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 }
 
 
-.section-container {
+.section-container-1 {
     display: flex;
     border: 1px solid #011C2A;
     margin-top: 2rem;
@@ -153,8 +153,17 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+}
 
-
+.section-container-2 {
+    display: flex;
+    border: 1px solid #011C2A;
+    margin-top: 2rem;
+    /* allow for responsiveness */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .section-subcontainer-21 {
