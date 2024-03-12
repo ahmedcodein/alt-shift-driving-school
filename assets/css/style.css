@@ -452,4 +452,13 @@ and increase the font size of disclaimer */
         flex-direction: row-reverse;
     }
 
+    /* style the contact form for larger screens */
+    #contact-form {
+        border: .5px solid #fff;
+        width: 20%;
+        font-size: 100%;
+        margin: 2px 2px 2px 2px;
+        padding: 5px 10px 5px 10px;
+    }
+
 }
