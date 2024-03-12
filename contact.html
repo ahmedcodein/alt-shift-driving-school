@@ -62,7 +62,32 @@
 
         <section>
             <div class="contact-section-container-1">
-                <div class="contact-section-subcontainer-11">Here goes the contact form</div>
+                <div class="contact-section-subcontainer-11">
+                    <form id="contact-form" action="https://formdump.codeinstitute.net" method="post">
+                        <h4>Let's get to know each other</h4>
+                        <br>
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name" name="first_name" class="text-input" required>
+                        <br>
+        
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" class="text-input" required>
+                        <br>
+        
+        
+                        <label for="email_address">Email Address</label>
+                        <input type="email" name="email_address" id="email_address" class="text-input" required>
+                        <br>
+        
+                        <label for="message">Message</label>
+                        <br>
+                        <textarea name="message" form="contact-form" class="text-input"></textarea>
+                        <br>
+        
+                        <button type="submit" class="contact-button"><a href="#" class="contact-button"></a>Send</button>
+                        
+                    </form>
+                </div>
             </div>
         </section>
     </main>
