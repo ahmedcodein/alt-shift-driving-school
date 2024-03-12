@@ -107,6 +107,7 @@ nav {
 /* Main style goes here */
 main {
     background-color: #011C2A;
+    width: 100vw;
     /* Allow the main element to span most of the page */
     /* This step is taken from the CI walkthrought project instruction*/
     flex: 1 0 auto;
@@ -376,6 +377,7 @@ label {
 footer {
     background-color: #011C2A;
     color: #fff;
+    width: 100vw;
     height: 15vh;
 }
 
