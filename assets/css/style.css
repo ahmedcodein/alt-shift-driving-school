@@ -229,6 +229,7 @@ h5 {
 /* Sections style of the main content of the plans page goes here */
 /* The design idea of the first section is inspired by CI's student
 project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.html */
+
 .plans-section-container-0 {
     border: 1px solid #011C2A;
     background: url('../images/home.webp');
@@ -274,6 +275,17 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     width: 600px;
     height: 300px;
     font-size: 90%;
+}
+
+.plans-section-subcontainer-12 {
+    border: 1px solid #011C2A;
+    margin: 5px;
+    width: 700px;
+    height: 300px;
+    background: url('../images/traffic-signs.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Sections style of the main content of the contact page goes here */
@@ -325,17 +337,6 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     width: 600px;
     height: 300px;
     font-size: 90%;
-}
-
-.contact-section-subcontainer-12 {
-    border: 1px solid #011C2A;
-    margin: 5px;
-    width: 700px;
-    height: 300px;
-    background: url('../images/traffic-signs.webp');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 /* Footer style goes here */
