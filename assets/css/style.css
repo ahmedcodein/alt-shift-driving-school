@@ -28,7 +28,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 15vh;
+    height: 12vh;
     margin: 0px 5px 0px 5px;
 
 }
