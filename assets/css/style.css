@@ -339,6 +339,40 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     font-size: 90%;
 }
 
+/* Contact form style goes here */
+/* Adopted from the CI walkthrough project */
+#contact-form {
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 100%;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+label {
+    margin-bottom: 15rem;
+}
+
+.text-input {
+    border: 1px solid #fff;
+    width: 11rem;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.contact-button {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 5px 15px 5px 15px;
+    color: #ffffff;
+    font-size: 100%;
+}
+
+.contact-button a {
+    padding: 0;
+}
+
 /* Footer style goes here */
 footer {
     background-color: #011C2A;
