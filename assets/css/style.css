@@ -356,7 +356,8 @@ label {
 
 .contact-button {
     background-color:#011C2A;
-    border: 2px solid #fff;
+    border: .5px solid #fff;
+    padding: 5px 15px 5px 15px;
     cursor: pointer;
     color: #ffffff;
     font-size: 100%;
