@@ -297,6 +297,16 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     background-color: rgba(1, 28, 42, .8);
 }
 
+.div-radio {
+    width: 12rem;
+}
+
+.subscription-form-label {
+display: block;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
 
 /* Sections style of the main content of the contact page goes here */
 /* The design idea of the first section is inspired by CI's student
@@ -352,7 +362,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     color: rgba(255, 255, 255, 0.9);
 }
 
-label {
+.contact-form-label {
     margin-bottom: 15rem;
     padding-right: 5px;
 }
