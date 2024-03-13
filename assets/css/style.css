@@ -301,6 +301,12 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     width: 12rem;
 }
 
+/* This step is meant to fix the unequal gaps between the
+the three radio buttons and the three labels, aiming to
+unify the distace */
+/* The first three lines of this step is adopted by the following
+youtupe video: https://www.youtube.com/watch?v=rTxeucqOajI */
+
 .subscription-form-label {
 display: block;
 display: flex;
