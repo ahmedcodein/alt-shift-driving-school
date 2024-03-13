@@ -333,7 +333,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 
 /* Contact form style goes here */
 /* Adopted from the CI walkthrough project */
-#contact-form {
+.contact-form {
     border: .5px solid #fff;
     width: 250px;
     font-size: 100%;
