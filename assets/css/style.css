@@ -431,6 +431,7 @@ or bigger than 430px */
         display: block;
         position: relative;
         top: 0;
+        font-size: 160%;
 
     }
 
