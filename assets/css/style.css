@@ -365,7 +365,7 @@ label {
     font-size: 100%;
 }
 
-#contact-form > h4 {
+.contact-form > h4 {
     margin-left: 1rem;
     margin-right: 1rem;
 }
