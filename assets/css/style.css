@@ -412,6 +412,16 @@ footer {
     margin-right: 2rem;
 }
 
+/* Breakpoint critieria: media query for 430px and up */
+/* This is to position the toggle nav properly when the screen is equal 
+or bigger than 430px */
+@media screen and (min-width: 430px) {
+
+    nav {
+        top: 6.8rem;
+    }
+    
+}
 /* Breakpoint critieria: media query for 768px and up */
 @media screen and (min-width: 768px) {
     /* change the header-container to flex column to show the menu horizontally */
