@@ -119,7 +119,7 @@ main {
 /* The design idea of the first section is inspired by CI's student
 project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.html */
 
-.hero-container {
+.hero-home {
     border: 1px solid #011C2A;
     background: url('../images/home.webp');
     background-position: center;
@@ -132,7 +132,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     align-items: flex-end;
 }
 
-.hero-container__title {
+.hero-home-title {
     border: 1px solid #011C2A;
     background-color: rgba(1, 28, 42, .55);
     color: #fff;
