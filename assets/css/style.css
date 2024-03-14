@@ -182,7 +182,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 }
 
 .process-profile__traditional--list {
-    border: 1px solid #011C2A;
+    border: 1px solid #fff;
     list-style-type: none;
     width: 270px;
     line-height: .8rem;
@@ -205,6 +205,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 
 h4 {
     text-align: justify;
+    margin-top: .5rem;
     margin-bottom: .25rem;
     line-height: 1.3rem;
     font-size: 100%;
@@ -236,7 +237,7 @@ h4 {
 }
 
 .process-profile__contemporary--list {
-    border: 1px solid #011C2A;
+    border: 1px solid #fff;
     list-style-type: none;
     width: 270px;
     line-height: .8rem;
@@ -303,13 +304,17 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     margin: 5px;
     background-color: #011C2A;
     color: #fff;
-    width: 600px;
-    height: 300px;
+    width: 700px;
+    height: 250px;
     font-size: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .plans-subscription__terms--list {
-    border: 1px solid #011C2A;
+    border: 1px solid #fff;
     list-style-type: none;
     width: 270px;
     line-height: .8rem;
@@ -322,6 +327,12 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     display: flex;
     align-items: center;
     margin: 10px;
+}
+
+.plans-subscription__terms--list li img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
 }
 
 .plans-subscription__form {
