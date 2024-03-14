@@ -375,7 +375,7 @@ justify-content: space-between;
 /* The design idea of the first section is inspired by CI's student
 project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.html */
 
-.contact-section-container-0 {
+.hero-contact {
     border: 1px solid #011C2A;
     background: url('../images/welcome.webp');
     background-position: center;
@@ -388,7 +388,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     align-items: flex-end;
 }
 
-.contact-section-subcontainer-0 {
+.hero-contact-title {
     border: 1px solid #011C2A;
     background-color: #011C2A;
     color: #fff;
