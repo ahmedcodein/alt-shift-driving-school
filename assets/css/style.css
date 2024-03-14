@@ -148,7 +148,6 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 
 
 .process-profile {
-    display: flex;
     border: 1px solid #011C2A;
     /* allow for responsiveness */
     display: flex;
@@ -289,7 +288,6 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 }
 
 .plans-subscription {
-    display: flex;
     border: 1px solid #011C2A;
     margin-top: 2rem;
     /* allow for responsiveness */
