@@ -24,7 +24,7 @@ header {
     background-color: #fff;
 }
 
-.header-container {
+.site-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,7 +33,7 @@ header {
 
 }
 
-.hdr-subcontainer-1 {
+.site-header-logo {
     background: url('../images/logo.webp');
     background-position: center;
     background-size: cover;
@@ -43,22 +43,22 @@ header {
     width: 4.5rem;
 }
 
-.hdr-subcontainer-2 {
+.hsite-header-title {
     flex-basis: 30%;
     min-height: 90px;
 }
 
-.hdr-subcontainer-3 {
+.site-header-menu {
     flex-basis: 10%;
     font-size: 80%;
 }
 
-.hdr-subcontainer-2 h1 {
+.site-header-title h1 {
     font-size: 200%;
     text-align: center;
 }
 
-.hdr-subcontainer-2 h2 {
+.site-header-title h2 {
     font-size: 100%;
     line-height: 100%;
     text-align: center;
@@ -507,7 +507,7 @@ or bigger than 430px */
 }
 /* Breakpoint critieria: media query for 768px and up */
 @media screen and (min-width: 768px) {
-    /* change the header-container to flex column to show the menu horizontally */
+    /* change the site-header to flex column to show the menu horizontally */
 
     nav {
         display: block;
@@ -531,7 +531,7 @@ or bigger than 430px */
         padding-right: 2rem;
     }
 
-    .header-container {
+    .site-header {
         justify-content: space-around;
     }
 
