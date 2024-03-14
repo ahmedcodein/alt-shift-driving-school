@@ -185,6 +185,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 .process-profile__traditional--list li img {
     width: 20px;
     height: 20px;
+    margin-right: 10px;
 }
 
 .process-profile__contemporary {
@@ -219,11 +220,17 @@ h5 {
 
 .process-profile__traditional--list {
     border: 1px solid #011C2A;
-    list-style-type: circle;
+    list-style-type: none;
     line-height: 1.1rem;
     margin-top: 1rem;
     margin-left: 3rem;
     font-size: 100%;
+}
+
+.process-profile__traditional--list li {
+    display: flex;
+    align-items: center;
+    margin: 10px;
 }
 
 /* Sections style of the main content of the plans page goes here */
