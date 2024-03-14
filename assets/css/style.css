@@ -176,6 +176,9 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     width: 600px;
     height: 300px;
     font-size: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .section-subcontainer-22 {
@@ -187,6 +190,11 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.why_list li img {
+    width: 20px;
+    height: 20px;
 }
 
 .section-subcontainer-31 {
