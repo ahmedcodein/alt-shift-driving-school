@@ -119,7 +119,7 @@ main {
 /* The design idea of the first section is inspired by CI's student
 project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.html */
 
-.hero-home {
+.home-hero {
     border: 1px solid #011C2A;
     background: url('../images/home.webp');
     background-position: center;
@@ -132,7 +132,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     align-items: flex-end;
 }
 
-.hero-home-title {
+.home-hero-title {
     border: 1px solid #011C2A;
     background-color: rgba(1, 28, 42, .55);
     color: #fff;
@@ -262,7 +262,7 @@ h4 {
 /* The design idea of the first section is inspired by CI's student
 project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.html */
 
-.hero-plans {
+.plans-hero {
     border: 1px solid #011C2A;
     background: url('../images/plans.webp');
     background-position: center;
@@ -275,7 +275,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     align-items: flex-end;
 }
 
-.hero-plans-title {
+.plans-hero-title {
     border: 1px solid #011C2A;
     background-color: #011C2A;
     color: #fff;
@@ -375,7 +375,7 @@ justify-content: space-between;
 /* The design idea of the first section is inspired by CI's student
 project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.html */
 
-.hero-contact {
+.contact-hero {
     border: 1px solid #011C2A;
     background: url('../images/welcome.webp');
     background-position: center;
@@ -388,7 +388,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     align-items: flex-end;
 }
 
-.hero-contact-title {
+.contact-hero-title {
     border: 1px solid #011C2A;
     background-color: #011C2A;
     color: #fff;
