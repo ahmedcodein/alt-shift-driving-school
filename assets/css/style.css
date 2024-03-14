@@ -182,42 +182,6 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     background-size: cover;
 }
 
-.process-profile__traditional--list li img {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-}
-
-.process-profile__contemporary {
-    border: 1px solid #011C2A;
-    margin: 5px;
-    background-color: #011C2A;
-    color: #fff;
-    width: 700px;
-    height: 300px;
-    font-size: 90%;
-}
-
-.process-profile__contemporary--image {
-    border: 1px solid #011C2A;
-    margin: 5px;
-    width: 600px;
-    height: 300px;
-    background: url('../images/why-us.webp');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-h4,
-h5 {
-    text-align: justify;
-    margin-bottom: .25rem;
-    margin-left: 2rem;
-    line-height: 1.3rem;
-    font-size: 100%;
-}
-
 .process-profile__traditional--list {
     border: 1px solid #011C2A;
     list-style-type: none;
@@ -231,6 +195,55 @@ h5 {
     display: flex;
     align-items: center;
     margin: 10px;
+}
+
+.process-profile__traditional--list li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+h4,
+h5 {
+    text-align: justify;
+    margin-bottom: .25rem;
+    margin-left: 2rem;
+    line-height: 1.3rem;
+    font-size: 100%;
+}
+
+.process-profile__contemporary {
+    border: 1px solid #011C2A;
+    margin: 5px;
+    background-color: #011C2A;
+    color: #fff;
+    width: 700px;
+    height: 300px;
+    font-size: 90%;
+}
+
+
+.process-profile__contemporary--image {
+    border: 1px solid #011C2A;
+    margin: 5px;
+    width: 600px;
+    height: 300px;
+    background: url('../images/why-us.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.process-profile__contemporary--list li {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.process-profile__contemporary--list li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 
 /* Sections style of the main content of the plans page goes here */
