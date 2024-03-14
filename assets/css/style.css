@@ -134,15 +134,15 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 
 .hero-container__title {
     border: 1px solid #011C2A;
-    background-color: #011C2A;
+    background-color: rgba(1, 28, 42, .55);
     color: #fff;
-    height: 5rem;
-    width: 10rem;
+    height: 3rem;
+    width: 15rem;
     text-transform: uppercase;
     /* Allow the subcontainer position to adjust to the screen size */
     position: absolute;
-    left: 10vw;
-    top: 57vh;
+    left: 8vw;
+    top: 55vh;
 }
 
 
