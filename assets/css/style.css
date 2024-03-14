@@ -261,7 +261,7 @@ h4 {
 /* The design idea of the first section is inspired by CI's student
 project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.html */
 
-.plans-section-container-0 {
+.hero-plans {
     border: 1px solid #011C2A;
     background: url('../images/plans.webp');
     background-position: center;
@@ -274,7 +274,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     align-items: flex-end;
 }
 
-.plans-section-subcontainer-0 {
+.hero-plans-title {
     border: 1px solid #011C2A;
     background-color: #011C2A;
     color: #fff;
@@ -287,7 +287,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     top: 57vh;
 }
 
-.plans-section-container-1 {
+.plans-subscription {
     display: flex;
     border: 1px solid #011C2A;
     margin-top: 2rem;
@@ -298,7 +298,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     align-items: center;
 }
 
-.plans-section-subcontainer-11 {
+.plans-subscription__terms {
     border: 1px solid #011C2A;
     margin: 5px;
     background-color: #011C2A;
@@ -308,7 +308,23 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     font-size: 90%;
 }
 
-.plans-section-subcontainer-12 {
+.plans-subscription__terms--list {
+    border: 1px solid #011C2A;
+    list-style-type: none;
+    width: 270px;
+    line-height: .8rem;
+    margin-top: .5rem;
+    margin-left: 1.5rem;
+    font-size: 80%;
+}
+
+.plans-subscription__terms--list li {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.plans-subscription__form {
     border: 1px solid #011C2A;
     margin: 5px;
     width: 700px;
@@ -322,7 +338,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     justify-content: center;
 }
 
-.subscription-form{
+.subscription-form {
     background-color: rgba(1, 28, 42, .95);
 }
 
