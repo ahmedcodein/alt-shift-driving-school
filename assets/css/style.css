@@ -134,7 +134,8 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 
 .home-hero-title {
     border: 1px solid #011C2A;
-    background-color: rgba(1, 28, 42, .55);
+    box-shadow: 10px 5px 5px #011C2A;
+    background-color: rgba(1, 28, 42, .35);
     color: #fff;
     height: 3rem;
     width: 15rem;
@@ -275,7 +276,8 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 
 .plans-hero-title {
     border: 1px solid #011C2A;
-    background-color: rgba(1, 28, 42, .55);
+    box-shadow: 10px 5px 5px #011C2A;
+    background-color: rgba(1, 28, 42, .35);
     color: #fff;
     height: 3rem;
     width: 15rem;
@@ -387,7 +389,8 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 
 .contact-hero-title {
     border: 1px solid #011C2A;
-    background-color: rgba(1, 28, 42, .55);
+    box-shadow: 10px 5px 5px #011C2A;
+    background-color: rgba(1, 28, 42, .35);
     color: #fff;
     height: 3rem;
     width: 15rem;
@@ -557,5 +560,34 @@ and increase the font size of disclaimer */
         margin: 2px 2px 2px 2px;
         padding: 5px 10px 5px 25px;
     }
+
+    .home-hero-title {
+        font-size: 150%;
+        height: 5rem;
+        width: 22rem;
+        /* Allow the subcontainer position to adjust to the screen size */
+        left: 8vw;
+        top: 50vh;
+    }
+
+    .plans-hero-title {
+        font-size: 150%;
+        height: 5rem;
+        width: 22rem;
+        /* Allow the subcontainer position to adjust to the screen size */
+        left: 8vw;
+        top: 50vh;
+    }
+
+    .contact-hero-title {
+        font-size: 150%;
+        height: 5rem;
+        width: 22rem;
+        /* Allow the subcontainer position to adjust to the screen size */
+        left: 8vw;
+        top: 50vh;
+    }
+
+
 
 }
