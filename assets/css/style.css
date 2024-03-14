@@ -401,7 +401,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     top: 57vh;
 }
 
-.contact-section-container-1 {
+.contact {
     display: flex;
     flex-direction: column;
     border: 1px solid #011C2A;
@@ -425,7 +425,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     color: rgba(255, 255, 255, 0.9);
 }
 
-.contact-form-label {
+.contact-form__label {
     margin-bottom: 15rem;
     padding-right: 5px;
 }
@@ -553,7 +553,7 @@ and increase the font size of disclaimer */
     }
 
     /* style the contact form for larger screens */
-    #contact-form {
+    .contact__form {
         border: .5px solid #fff;
         width: 500;
         font-size: 100%;
