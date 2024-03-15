@@ -9,7 +9,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     /* This step is taken from the CI walkthrought project instruction*/
     min-height: 100vh;
@@ -30,7 +29,6 @@ header {
     justify-content: space-between;
     height: 12vh;
     margin: 0px 5px 0px 5px;
-
 }
 
 .site-header-logo {
@@ -410,7 +408,6 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     align-items: center;
 }
 
-
 /* Contact form style goes here */
 /* Adopted from the CI walkthrough project */
 .contact-form {
@@ -486,7 +483,6 @@ footer {
 .social-media-icon {
     color: #fff;
     font-size: xx-large;
-
 }
 
 .site-footer-social-media ul li {
@@ -503,7 +499,6 @@ or bigger than 430px */
     }
 
     /* Ensure lists appear properly in screens bigger than 429px */
-
 
     .process-profile__traditional--list {
         width: 350px;
@@ -533,7 +528,6 @@ or bigger than 430px */
         position: relative;
         top: 0;
         font-size: 160%;
-
     }
 
     #menu {
