@@ -337,6 +337,18 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     background-color: rgba(1, 28, 42, .95);
 }
 
+/* Place fieldset with legend to avoid radio buttons 
+ structural grouping or accessibility induced errors */
+
+legend {
+    display: none;
+}
+
+fieldset {
+    border: 2px solid #011C2A;
+}
+
+
 /* This step supports the next selector purpose */
 .div-radio {
     width: 12rem;
@@ -544,6 +556,16 @@ or bigger than 430px */
     .toggle-label {
         display: none;
     }
+
+    .screen-reader:not(:focus):not(:active) {
+        clip: rect(0 0 0 0); 
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap; 
+        width: 1px;
+      }
 
     #menu li {
         padding-right: 2rem;
