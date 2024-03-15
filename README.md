@@ -1,110 +1,119 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Poiesis
 
-Welcome Ahmed Al-Mudhafar,
+Poiesis is a start-up company aims to disrupt the traditional driving school business. It is aiming to do so by combining two technologies into the business process. These are:
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+1. Virtual Reality
+2. Process Automation
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Exploiting those technology will allow Poiesis to Alt and Shift the driving school business forever. 
 
-## Gitpod Reminders
+By exploiting those technology Poiesis can achieve three main business differentiated facts:
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+1. Cost Advantage
 
-`python3 -m http.server`
+It is well known fact that technology is a deflationary force. Efficiency, speed and horizontal scalability are the main aspects of technology advantages.
 
-A blue button should appear to click: _Make Public_,
+by employing VR technology with true physical interaction feeling with surrounding environment, Poiesis can have the advantage of saving significant capital cost to own or acquire cars. in addition, to a significant cost incurred along with owning a car, such as car maintenance, insurance etc.
 
-Another blue button should appear to click: _Open Browser_.
+by its nature, the VR will also provide the possibility of having a digital instructure that can be visually appeared to sit beside the driver using.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+2. Fun Experience
 
-A blue button should appear to click: _Make Public_,
+Based on that business objective, Poiesis, the customer, has mandated a web developer, the author, to develop a website that supports its business objective. The website objective is laid out in the next section. Thereafter, a description of a typical user need is presented to which the website is supposed to drive the potential customer to use Poiesis offering.
 
-Another blue button should appear to click: _Open Browser_.
+Customer Requirement:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The website should achieve the following objective:
 
-To log into the Heroku toolbelt CLI:
+The three overarching goals of the website are:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Educate the market about Poiesis new approach.
+Represent the main channel to reach the visitor to engage with her directly or indirectly/him.
+Act as the first sales channel to the customer.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Toward achieving those overarching objectives, Poiesis's website requirement are presented as follows:
 
-------
+A futuristic feeling should be observed as a first impression of visitor.
+Engaging the visitor directly with a problem statement that speaks to the real pain of the potential customer.
+A true solution is laid out that explain in plain English why the visitor should consider. 
+Poiesis offering.
+A clear presentation of terms as to how much the customer will pay if chose to more to the next step of learning about the company.
+A direct and easy way in presenting the offers signaling the customer an smooth and fast backend processes and approach
+A page where the visitor can reach out to the company to learn more about the offers, technology, process etc. in case the visitor is still hesitant to commit to any of the offered plans.
 
-## Release History
+Visitor expectation
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+As per Poiesis marketing and sales team, the following aspects have been devised as what the website visitor would expect and want to see on the Poiesis website.
 
-**September 20 2023:** Update Python version to 3.9.17.
+Website that speaks to driving license seekers by focusing on the following aspects, presented without order:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+How can this school be different from other driving schools?
+How can I acquire the license with less money and time?
+How can I enjoy the learning process yet still achieve my three main objectives, the driving license with less money and shorter duration.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
 ------
 
-## FAQ about the uptime script
+## Features
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+------
 
-**How will this affect me?**
+## Testing
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+**here**
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+**here?**
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+**Hear**
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+**Here?**
+
 
 ```
 pkill uptime.sh
 rm .vscode/uptime.sh
 ```
 
-**Anything more?**
+**Here**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Deployment
 
----
+## Reference and Credits
 
-Happy coding!
+### References
+
+The following reference has a great impact on the development of the code that is behind the finished website. The author has, to his best, tried to reference them either in the html or the CSS files where appropriate. However, if the author failed to do so in some places, it is only because of the time constrained. The credits and gratitude are given to each of them for the valuable help the author received from them.
+
+1. Code institute Learning Materials
+2. Learn Flexbox in 15 Minutes - YouTube channel Web Dev Simplified, link https://www.youtube.com/watch?v=fYq5PXgSsbE
+3. How To Make Subscription Page For Website Using HTML And CSS | Price Plan Page design, YouTube channel: GreatStack, link: https://www.youtube.com/watch?v=rTxeucqOajI
+4. Code Institute Walkthrough projec: Love Running
+5. https://css-tricks.com/inclusively-hidden/ 
+6. Code Article: Inclusively Hidden, a nice walkthrough of the different ways to hide things on the web, link: https://css-tricks.com/inclusively-hidden/
+7. CI's PP1 student project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.html
+8. A Complete Guide to Flexbox, CSS-Tricks Link: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+### Content, Media and Tools
+
+The images used in this project is created by OpenAI Chat GPT-4 based on the autthor instructions, [OpenAI Chat GPT-4](https://chat.openai.com/auth/login).
+
+The social media icons and the humberuger icon is downloaded from Font Awesome, [Font Awesome](https://fontawesome.com/).
+
+Google fonts is used to define the fonts in the stylesheet, [Google fonts](https://fonts.google.com/).
+
+Wordcounter is used to track the number of characters of each git commit, [Wordcounter](https://wordcounter.net/character-count).
