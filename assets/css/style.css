@@ -77,7 +77,6 @@ a {
 }
 
 /* Navbar code adopted from Love Running project with customization */
-
 nav {
     position: absolute;
     left: 0;
@@ -102,8 +101,6 @@ nav {
 /* screen-reader-only fix for the label error */
 /* Hiden label content was solved by using the solution presented 
 in the this link: https://css-tricks.com/inclusively-hidden/ */
-
-
 .screen-reader:not(:focus):not(:active) {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
@@ -131,7 +128,6 @@ main {
 /* Sections style of the main content of the home page goes here */
 /* The design idea of the first section is inspired by CI's student
 project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.html */
-
 .home-hero {
     background: url('../images/home.webp');
     background-position: center;
@@ -157,7 +153,6 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     left: 8vw;
     top: 55vh;
 }
-
 
 .process-profile {
     /* allow for responsiveness */
@@ -264,7 +259,6 @@ h3 {
 /* Sections style of the main content of the plans page goes here */
 /* The design idea of the first section is inspired by CI's student
 project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.html */
-
 .plans-hero {
     background: url('../images/plans.webp');
     background-position: center;
@@ -354,7 +348,6 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 
 /* Place fieldset with legend to avoid radio buttons 
  structural grouping or accessibility induced errors */
-
 legend {
     display: none;
 }
@@ -362,7 +355,6 @@ legend {
 fieldset {
     border: 2px solid #011C2A;
 }
-
 
 /* This step supports the next selector purpose */
 .div-radio {
@@ -374,7 +366,6 @@ the three radio buttons and the three labels, aiming to
 unify the distace */
 /* The first three lines of this step is adopted from the following
 youtube video: https://www.youtube.com/watch?v=rTxeucqOajI */
-
 .subscription-form-label {
     display: block;
     display: flex;
@@ -385,7 +376,6 @@ youtube video: https://www.youtube.com/watch?v=rTxeucqOajI */
 /* Sections style of the main content of the contact page goes here */
 /* The design idea of the first section is inspired by CI's student
 project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.html */
-
 .contact-hero {
     background: url('../images/welcome.webp');
     background-position: center;
@@ -489,7 +479,6 @@ footer {
     width: 80%;
     justify-content: space-between;
     align-items: flex-end;
-
 }
 
 .site-footer-disclaimer {
@@ -548,13 +537,11 @@ or bigger than 430px */
         line-height: .9rem;
         font-size: 90%;
     }
-
 }
 
 /* Breakpoint critieria: media query for 768px and up */
 @media screen and (min-width: 768px) {
     /* change the site-header to flex column to show the menu horizontally */
-
     nav {
         display: block;
         position: relative;
@@ -581,7 +568,6 @@ or bigger than 430px */
     }
 
     /* Ensure list appears properly in bigger screens */
-
 
     .process-profile {
         margin-top: 32px;
@@ -638,14 +624,11 @@ or bigger than 430px */
 
     /* Change footer containers width to decrease the distance between social media icons
 and increase the font size of disclaimer */
-
     .site-footer-social-media {
         width: 40%;
     }
 
-
     /* Reverse containers positions in bigger screens for better contrast */
-
     .site-footer-disclaimer {
         flex-direction: row-reverse;
     }
