@@ -501,6 +501,27 @@ or bigger than 430px */
     nav {
         top: 6.8rem;
     }
+
+    /* Ensure lists appear properly in screens bigger than 429px */
+
+
+    .process-profile__traditional--list {
+        width: 350px;
+        line-height: 1rem;
+        font-size: 100%;
+    }
+
+    .process-profile__contemporary--list {
+        width: 350px;
+        line-height: 1rem;
+        font-size: 100%;
+    }
+
+    .plans-subscription__terms--list {
+        width: 350px;
+        line-height: 1rem;
+        font-size: 100%;
+    }
     
 }
 /* Breakpoint critieria: media query for 768px and up */
@@ -532,6 +553,31 @@ or bigger than 430px */
     .site-header {
         justify-content: space-around;
     }
+
+        /* Ensure list appears properly in bigger screens */
+
+        .process-profile__traditional--list {
+            width: 400px;
+            line-height: 1.05rem;
+            font-size: 110%;
+        }
+    
+        .process-profile__contemporary--list {
+            width: 400px;
+            line-height: 1.05rem;
+            font-size: 110%;
+        }
+    
+        .plans-subscription__terms--list {
+            width: 400px;
+            line-height: 1.05rem;
+            font-size: 110%;
+        }
+    
+        h4 {
+            line-height: 1.3rem;
+            font-size: 130%;
+        }
 
     /* Change footer containers width to decrease the distance between social media icons
 and increase the font size of disclaimer */
@@ -585,7 +631,4 @@ and increase the font size of disclaimer */
         left: 8vw;
         top: 50vh;
     }
-
-
-
 }
