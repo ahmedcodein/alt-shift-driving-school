@@ -97,23 +97,31 @@ rm .vscode/uptime.sh
 
 ### References
 
-The following reference has a great impact on the development of the code that is behind the finished website. The author has, to his best, tried to reference them either in the html or the CSS files where appropriate. However, if the author failed to do so in some places, it is only because of the time constrained. The credits and gratitude are given to each of them for the valuable help the author received from them.
+The following references's list has a great impact on the author thinking and style for development of the website. The author, to his best, tried to reference them either in the html or the CSS files where appropriate. However, if the author failed to do so in some places, it is only because of the time constrained. The credits and gratitude are given to each of them for the valuable help their content provided.
 
 1. Code institute Learning Materials
-2. Learn Flexbox in 15 Minutes - YouTube channel Web Dev Simplified, link https://www.youtube.com/watch?v=fYq5PXgSsbE
-3. How To Make Subscription Page For Website Using HTML And CSS | Price Plan Page design, YouTube channel: GreatStack, link: https://www.youtube.com/watch?v=rTxeucqOajI
-4. Code Institute Walkthrough projec: Love Running
-5. https://css-tricks.com/inclusively-hidden/ 
-6. Code Article: Inclusively Hidden, a nice walkthrough of the different ways to hide things on the web, link: https://css-tricks.com/inclusively-hidden/
-7. CI's PP1 student project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.html
-8. A Complete Guide to Flexbox, CSS-Tricks Link: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+2. Learn Flexbox in 15 Minutes - YouTube channel Web Dev Simplified, [Learn Flexbox in 15 Minutes](https://www.youtube.com/watch?v=fYq5PXgSsbE)
+
+3. How To Make Subscription Page For Website Using HTML And CSS | Price Plan Page design, YouTube channel: GreatStack, [link](https://www.youtube.com/watch?v=rTxeucqOajI)
+4. Code Institute Walkthrough projec: Love Running. 
+5. Code Article: Inclusively Hidden, a nice walkthrough of the different ways to hide things on the web, [link](https://css-tricks.com/inclusively-hidden/).
+6. CI's PP1 student project Dhadda's Detailing, [Dhadda's Detailing](https://rdhadda.github.io/Dhaddas-Detailing/index.html).
+
+7. A Complete Guide to Flexbox, [CSS-Tricks](Link: https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
 
 ### Content, Media and Tools
 
 The images used in this project is created by OpenAI Chat GPT-4 based on the autthor instructions, [OpenAI Chat GPT-4](https://chat.openai.com/auth/login).
 
-The social media icons and the humberuger icon is downloaded from Font Awesome, [Font Awesome](https://fontawesome.com/).
+The social media icons and the Triple bar icon is downloaded from Font Awesome, [Font Awesome](https://fontawesome.com/).
 
 Google fonts is used to define the fonts in the stylesheet, [Google fonts](https://fonts.google.com/).
 
 Wordcounter is used to track the number of characters of each git commit, [Wordcounter](https://wordcounter.net/character-count).
+
+## Achnowlegdment
+
+My sincere graduate and appreciation go to my mentor, Mr. David Bowers, for his valuable advice and laser-focused conversations. His inputs, tips and feedback have been no less than master class of coaching and mentorship. I am looking forward to working with him in future on the next projects within course of this study program. 
+
+My thanks and love go to my wife and daughter for their patience during the period of developing this project. I have not been around them enough during this period, yet they have been with me proving only the support and the help whenever I need some. This is what nothing else can substitute in this life, having a loving and a supportive family. Thank you!
