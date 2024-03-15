@@ -99,6 +99,21 @@ nav {
     font-size: xxx-large;
 }
 
+/* screen-reader-only fix for the label error */
+/* Hiden label content was solved by using the solution presented 
+in the this link: https://css-tricks.com/inclusively-hidden/ */
+
+
+.screen-reader:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
 .active {
     border-bottom: 2px solid #011C2A;
 }
@@ -443,7 +458,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     font-size: 100%;
 }
 
-.contact-form > h3 {
+.contact-form>h3 {
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -478,7 +493,7 @@ footer {
 }
 
 .site-footer-disclaimer {
-    font-size: 10px;
+    font-size:  medium;
 }
 
 .social-media-icon {
@@ -557,16 +572,6 @@ or bigger than 430px */
         display: none;
     }
 
-    .screen-reader:not(:focus):not(:active) {
-        clip: rect(0 0 0 0); 
-        clip-path: inset(50%);
-        height: 1px;
-        overflow: hidden;
-        position: absolute;
-        white-space: nowrap; 
-        width: 1px;
-      }
-
     #menu li {
         padding-right: 2rem;
     }
@@ -638,9 +643,6 @@ and increase the font size of disclaimer */
         width: 40%;
     }
 
-    .site-footer-disclaimer {
-        font-size: 15px;
-    }
 
     /* Reverse containers positions in bigger screens for better contrast */
 
