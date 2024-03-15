@@ -118,7 +118,6 @@ main {
 project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.html */
 
 .home-hero {
-    border: 1px solid #011C2A;
     background: url('../images/home.webp');
     background-position: center;
     background-repeat: no-repeat;
@@ -130,7 +129,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     align-items: flex-end;
 }
 
-.home-hero-title {
+.home-hero-title {    
     border: 1px solid #011C2A;
     box-shadow: 10px 5px 5px #011C2A;
     background-color: rgba(1, 28, 42, .35);
@@ -146,7 +145,6 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 
 
 .process-profile {
-    border: 1px solid #011C2A;
     /* allow for responsiveness */
     display: flex;
     flex-wrap: wrap;
@@ -155,7 +153,6 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 }
 
 .process-profile__traditional {
-    border: 1px solid #011C2A;
     margin: 5px;
     background-color: #011C2A;
     color: #fff;
@@ -169,7 +166,6 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 }
 
 .process-profile__traditional--image {
-    border: 1px solid #011C2A;
     margin: 5px;
     width: 700px;
     height: 300px;
@@ -180,7 +176,6 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 }
 
 .process-profile__traditional--list {
-    border: 1px solid #fff;
     list-style-type: none;
     width: 270px;
     line-height: .8rem;
@@ -209,7 +204,6 @@ h4 {
 }
 
 .process-profile__contemporary {
-    border: 1px solid #011C2A;
     margin: 5px;
     background-color: #011C2A;
     color: #fff;
@@ -223,7 +217,6 @@ h4 {
 }
 
 .process-profile__contemporary--image {
-    border: 1px solid #011C2A;
     margin: 5px;
     width: 700px;
     height: 300px;
@@ -234,7 +227,6 @@ h4 {
 }
 
 .process-profile__contemporary--list {
-    border: 1px solid #fff;
     list-style-type: none;
     width: 270px;
     line-height: .8rem;
@@ -259,7 +251,6 @@ h4 {
 project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.html */
 
 .plans-hero {
-    border: 1px solid #011C2A;
     background: url('../images/plans.webp');
     background-position: center;
     background-repeat: no-repeat;
@@ -286,7 +277,6 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 }
 
 .plans-subscription {
-    border: 1px solid #011C2A;
     margin-top: 2rem;
     /* allow for responsiveness */
     display: flex;
@@ -296,7 +286,6 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 }
 
 .plans-subscription__terms {
-    border: 1px solid #011C2A;
     margin: 5px;
     background-color: #011C2A;
     color: #fff;
@@ -310,7 +299,6 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 }
 
 .plans-subscription__terms--list {
-    border: 1px solid #fff;
     list-style-type: none;
     width: 270px;
     line-height: .8rem;
@@ -331,7 +319,6 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 }
 
 .plans-subscription__form {
-    border: 1px solid #011C2A;
     margin: 5px;
     width: 700px;
     height: 300px;
@@ -371,7 +358,6 @@ justify-content: space-between;
 project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.html */
 
 .contact-hero {
-    border: 1px solid #011C2A;
     background: url('../images/welcome.webp');
     background-position: center;
     background-repeat: no-repeat;
