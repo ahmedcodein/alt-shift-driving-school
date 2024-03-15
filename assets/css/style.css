@@ -32,6 +32,7 @@ header {
 }
 
 .site-header-logo {
+    background: url('../images/logo.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
