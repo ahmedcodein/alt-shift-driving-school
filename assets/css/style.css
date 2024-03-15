@@ -41,7 +41,7 @@ header {
     width: 4.5rem;
 }
 
-.hsite-header-title {
+.site-header-title {
     flex-basis: 30%;
     min-height: 90px;
 }
@@ -196,7 +196,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     margin-right: 10px;
 }
 
-h4 {
+h3 {
     text-align: justify;
     margin-bottom: .25rem;
     line-height: 1.3rem;
@@ -431,7 +431,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     font-size: 100%;
 }
 
-.contact-form>h4 {
+.contact-form > h3 {
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -586,7 +586,7 @@ or bigger than 430px */
         font-size: 110%;
     }
 
-    h4 {
+    h3 {
         line-height: 1.3rem;
         font-size: 130%;
     }
