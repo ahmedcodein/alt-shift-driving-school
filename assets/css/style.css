@@ -32,19 +32,12 @@ header {
 }
 
 .site-header-logo {
-    height: 5rem;
-    width: 5rem;
-    padding-top: 1rem;
-    display: flex;
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    align-items: center;
-}
-
-.site-header-logo img {
+    align-self: center;
     height: 4.5rem;
     width: 4.5rem;
-
 }
 
 .site-header-title {
@@ -499,7 +492,7 @@ footer {
 }
 
 .site-footer-disclaimer {
-    font-size: medium;
+    font-size:  medium;
 }
 
 .social-media-icon {
