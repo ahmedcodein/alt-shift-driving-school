@@ -72,6 +72,56 @@ How can I enjoy the learning process yet still achieve my three main objectives,
 
 ## Testing
 
+The author has performed multiple tests during each stage of the development. In this document, however, the author presents only the most recent ones and goes swiftly over few issues from earlier tests that stands out.
+
+1. To adhere to the user experience best practice, the author decides to include a home link to the logo. By doing so, however, the evaluator showed an error of adjacent links pointing to the same destination is not acceptable. Hence, the author reverts to the original arrangement of not including such functionality to the logo. 
+
+2. An error observed by Lighthouse, the error states that some font sizes in the plans page is small to be accepted. Hence, and as a result the author increased the fonts to acceptable size leading to a change in multiple selectors properties.
+
+3. The author faced a problem issue with wave regarding the nav label that appears empty. The author has implemented a given set of steps to hide the label content without showing any accessibility errors. The solution functions very well, accepting that one of the properties, which is path, appeared to be deprecated. 
+
+4. The author could not find a solution to the aforementioned error. Therefore, the author improvised and removed the property, and to his surprise, the solution is still functioning. The author has no explanation except that it works.
+
+5. CSS validator shows a warning, see the CSS validator captures below, regarding the imported Google Fonts. To the best knowledge of the author, there is no ready solution for this issue yet. The author can make such claim based on two facts:
+
+a) In the walkthrough project, Love Running, the instructor mentioned that such error is out of her control. Therefore, she does not consider this as an issue.
+
+b) The author read that some other students have considered this issue before without avail. 
+
+### Test tools and final validation captures
+
+Four tools are used to test the websites code, performance are accessibility. These are:
+
+1. W2C Validator for HTML
+2. W2C Validator for CSS
+3. Wave
+4. Lighthouse
+
+Foue tools/environment are used to test responsive and compatibility. These are:
+
+1. Chrome
+2. Edge
+3. Firefox
+4. DevTools
+
+It is worth mentioning on this occasion, that while the author is checking the compatibility of the website across different browsers, he noticed some browsers where particularly problematic. They show an error within DevTools. The error is Unchecked runtime.lastError: The message port closed before a response was received.
+
+After some investigations, it appears that some ad-ons prevent any sort of communications between the website and the DevTools. The solution to such an issue is simply to remove those extensions one by one and check whether the error disappears. In our case, the author is happy to report that such a problem is resolved by that action. The website is functional without issues on the three browsers mentioned above and without responsivity problems.
+
+#### Test Resuts
+
+The list of captures here shows some of the tests before the submission, few comments will follow at the end of this section:
+
+
+![alt text](image.jpg)  
+
+
+
+![alt text](image.jpg)
+
+
+
+
 **here**
 
 
