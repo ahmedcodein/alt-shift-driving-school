@@ -110,36 +110,98 @@ After some investigations, it appears that some ad-ons prevent any sort of commu
 
 #### Test Resuts
 
-The list of captures here shows some of the tests before the submission, few comments will follow at the end of this section:
+The list of captures here shows some of the tests before the submission:
 
 
-![alt text](image.jpg)  
+##### Lighthouse Results
+
+The lighthouse results show some differences between the mobile and disktop tests. The latter has shown a siginifcantly better results. The author explination is that the size of the images in the case of the mobile, for some reason, degredate the performance of the of the website on smaller screens. 
+
+###### Mobile Test Results:
+
+Home Page
+
+![home page](assets/docs/lighthouse-home.png)
+
+Plans Page
+
+![plans page](assets/docs/lighthouse-plans..png) 
+
+Contact Page
+
+![contact page](assets/docs/lighthouse-contact.png)  
+
+######  Disktop Test Results
+
+Home Page
+
+![home page](assets/docs/lighthouse-home-dt.png)
+
+Plans Page
+
+![plans page](assets/docs/lighthouse-plans-dt.png) 
+
+Contact Page
+
+![contact page](assets/docs/lighthouse-contact-dt.png)  
+
+
+##### W3C Validator Results
+
+Home Page
+
+![home page](assets/docs/w3c-home.png)
+
+Plans Page
+
+![plans page](assets/docs/w3c-plans.png) 
+
+Contact Page
+
+![contact page](assets/docs/w3c-contact.png)
+
+CSS W3C Test Results
+
+Error:
+
+Page One of the Test
+
+![css tests results one](assets/docs/w3c-css-one.png)
+
+Page Two of the Test
+
+![css tests results two](assets/docs/w3c-css-two.png)
+
+
+Fix:
+
+Page One of the Test
+
+![css tests results one](assets/docs/w3c-css-one_fix.png)
+
+Page Two of the Test
+
+![css tests results two](assets/docs/w3c-css-two_fix.png)
 
 
 
-![alt text](image.jpg)
 
 
 
+##### Wave Tests Results
 
-**here**
+Home Page
 
+![home page](assets/docs/wave-home.png)
 
-**here?**
+Plans Page
 
+![plans page](assets/docs/wave-plans.png)  
 
-**Hear**
+Contact Page
 
+![contact page](assets/docswave-contact.png)
 
-**Here?**
-
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Here**
 
 ## Deployment
 
