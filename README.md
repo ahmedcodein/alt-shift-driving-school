@@ -51,9 +51,75 @@ From the website's visitor perspective, the website should answer the following 
 3. How can I enjoy the learning process yet still being able to achieve my three main objectives.
 
 ------
+## Website Structure
+
+The logic behind developing the website structure is based on what the business wants to achieve and what a website visitor wants to find.
+
+The website fundamental structure is based on three principles
+
+1. Easy to explore
+2. Engaging
+3. Inviting for action
+
+Hence, the structure translates into three main components.
+
+1. The first component has the exploration functionality.
+2. The second component provides engaging information.
+3. The third component allow the visitor to take action.
 
 ## Features
 
+### The header:
+
+The first component is the header. It serves the exploreation purpose. It allows the vistor to explore easly on the website. The header is divided into three parts. 
+
+1. The first part is the company logo.
+
+2. The second part is the company name with a marketing statement.
+
+3. The third part is a navigation menu that allows the visitor to explore other information.
+
+The header is reapeted across all the pages of the website. See the image below for a better feeling.
+
+![the header](assets/docs/header-dt.png)
+
+### The Main Content
+
+The main content speaks to the second and the third components of the stucture. It combines both an engaging infomation and the invitation for action.
+
+The first part of the main content serves the same purpose across all the pages. It provides an engagign information, which consists of an image that shows the company cabability plus a marketing teaser statement to foster the engagment purpuse.
+
+The second part of the main content aims to develop upon the moentum built by the first part. That is by forstring it with other images and information. Eventually, in particular for seconnd and the third page, the second part contains an information inviting the visitor to take an action. Either by choosing one of the subscription plans or contact the company for further information.
+
+See the images below for a better feeling.
+
+#### The Disktop view:
+
+Home Page
+
+![home page, engaging information](assets/docs/hero-home-dt.png)
+
+![home page, engaging information](assets/docs/engage-home-dt.png)
+
+Plans Page
+
+![plans page, engaging information](assets/docs/engage-plans-dt.png)
+
+![plans page, invitation for action](assets/docs/action-plans.png)
+
+Contact Page
+
+![contact page, engaging information](assets/docs/engage-contact-dt.png)
+
+![contact page, invitation for action](assets/docs/action-contact-dt.png)
+
+### The Footer
+
+The footer is the third component. It is also repeated across the website pages.It is exacty like the header in terms of serving the exploration purpose. However, it is meant to explore what the outside world is saying about the company or what the company is saying outside the website.
+
+See the images below for a better feeling.
+
+![the header](assets/docs/footer-dt.png)
 
 ------
 
