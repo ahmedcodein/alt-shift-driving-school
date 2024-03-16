@@ -81,7 +81,13 @@ The first component is the header. It serves the exploreation purpose. It allows
 
 The header is reapeted across all the pages of the website. See the image below for a better feeling.
 
+Desktop
+
 ![the header](assets/docs/header-dt.png)
+
+Mobile
+
+![the header](assets/docs/header-m.png)  
 
 ### The Main Content
 
@@ -93,25 +99,55 @@ The second part of the main content aims to develop upon the moentum built by th
 
 See the images below for a better feeling.
 
-#### The Disktop view:
-
-Home Page
+Desktop
 
 ![home page, engaging information](assets/docs/hero-home-dt.png)
 
 ![home page, engaging information](assets/docs/engage-home-dt.png)
 
+Mobile
+
+![home page, engaging information](assets/docs/hero-home-m.png)
+
+![home page, engaging information](assets/docs/engage-home-one-m.png)
+
+![home page, engaging information](assets/docs/engage-home-two-m.png)
+
+![home page, engaging information](assets/docs/engage-home-three-m.png)
+
+![home page, engaging information](assets/docs/engage-home-four-m.png)
+
 Plans Page
+
+Desktop
 
 ![plans page, engaging information](assets/docs/engage-plans-dt.png)
 
 ![plans page, invitation for action](assets/docs/action-plans-dt.png)
 
+Mobile
+
+![plans page, engaging information](assets/docs/engage-plans-m.png)
+
+![plans page, engaging information](assets/docs/action-plans-m.png)
+
+![plans page, engaging information](assets/docs/action-plans-two-m.png)
+
+
 Contact Page
+
+Desktop
 
 ![contact page, engaging information](assets/docs/engage-contact-dt.png)
 
 ![contact page, invitation for action](assets/docs/action-contact-dt.png)
+
+Mobile
+
+![contact page, engaging information](assets/docs/engage-contact-m.png)
+
+
+![contact page, invitation for action](assets/docs/action-contact-m.png)
 
 ### The Footer
 
@@ -119,7 +155,13 @@ The footer is the third component. It is also repeated across the website pages.
 
 See the images below for a better feeling.
 
-![the header](assets/docs/footer-dt.png)
+Desktop
+
+![the footer](assets/docs/footer-dt.png)
+
+Mobile
+
+![the footer](assets/docs/footer-m.png)
 
 ------
 
