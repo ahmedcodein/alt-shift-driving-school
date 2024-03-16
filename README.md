@@ -298,6 +298,16 @@ Contact Page
 
 ## Deployment
 
+The author has followed the following process for deployment:
+
+1. In the project repository go to settings
+2. Under Code and Automation, go to pages
+3. Under Build and deployment, choose to deploy from branch
+4. Under branch, select main
+3. Now select save
+4. Wait for couple of minutes to the website to go online
+
+
 ------
 
 ## Reference and Credits
