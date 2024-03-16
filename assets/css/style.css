@@ -102,7 +102,6 @@ nav {
 /* Hiden label content was solved by using the solution presented 
 in the this link: https://css-tricks.com/inclusively-hidden/ */
 .screen-reader:not(:focus):not(:active) {
-    clip: rect(0 0 0 0);
     clip-path: inset(50%);
     height: 1px;
     overflow: hidden;
@@ -168,7 +167,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
     background-color: #011C2A;
     color: #fff;
     width: 700px;
-    height: 270px;
+    height: 400px;
     font-size: 90%;
     display: flex;
     flex-direction: column;
@@ -179,7 +178,7 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 .process-profile__traditional--image {
     margin: 5px;
     width: 700px;
-    height: 270px;
+    height: 400px;
     background: url('../images/traffic-signs.webp');
     background-position: center;
     background-repeat: no-repeat;
@@ -188,10 +187,11 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 
 .process-profile__traditional--list {
     list-style-type: none;
+    height: 400px;
     width: 270px;
-    line-height: .8rem;
+    line-height: 1.3rem;
     margin-top: .5rem;
-    font-size: 80%;
+    font-size: 110%;
 }
 
 .process-profile__traditional--list li {
@@ -201,8 +201,8 @@ project Dhadda's Detailing: https://rdhadda.github.io/Dhaddas-Detailing/index.ht
 }
 
 .process-profile__traditional--list li img {
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
     margin-right: 10px;
 }
 
@@ -210,7 +210,7 @@ h3 {
     text-align: justify;
     margin-bottom: .25rem;
     line-height: 1.3rem;
-    font-size: 100%;
+    font-size: 120%;
 }
 
 .process-profile__contemporary {
@@ -218,7 +218,7 @@ h3 {
     background-color: #011C2A;
     color: #fff;
     width: 700px;
-    height: 270px;
+    height: 400px;
     font-size: 90%;
     display: flex;
     flex-direction: column;
@@ -229,7 +229,7 @@ h3 {
 .process-profile__contemporary--image {
     margin: 5px;
     width: 700px;
-    height: 270px;
+    height: 400px;
     background: url('../images/avatar.webp');
     background-position: center;
     background-repeat: no-repeat;
@@ -238,10 +238,11 @@ h3 {
 
 .process-profile__contemporary--list {
     list-style-type: none;
+    height: 400px;
     width: 270px;
-    line-height: .8rem;
+    line-height: 1.3rem;
     margin-top: .5rem;
-    font-size: 80%;
+    font-size: 110%;
 }
 
 .process-profile__contemporary--list li {
@@ -251,8 +252,8 @@ h3 {
 }
 
 .process-profile__contemporary--list li img {
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
     margin-right: 10px;
 }
 
