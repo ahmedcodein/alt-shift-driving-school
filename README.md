@@ -1,6 +1,6 @@
 # Poiesis
 
-Poiesis is a start-up company aims to disrupt the traditional driving school business. It wants to do so by combining two technologies into the business process. These are:
+Poiesis is a start-up company that aims to disrupt the traditional driving school business. It aims to do so by combining two technologies into the business process. These are:
 
 1. Virtual Reality
 2. Process Automation
@@ -16,7 +16,7 @@ Poiesis technology allow it to serve its customer with:
 
 1. Cost Saving
 2. Fun Experience
-3. Flixibility
+3. Flexibility
 
 Poiesis, the customer, has recruited a web developer, the author, to develop a website that supports its business objectives of creating new customer base for its offering. 
 
@@ -28,13 +28,13 @@ The website objectives are laid out in the next section. Thereafter, a descripti
 The three overarching goals of the website are:
 
 1. Educate the market about Poiesis new approach.
-2. Become the main channel to reach out to and intract with the custmer
+2. Become the main channel to reach out to and interact with the customer
 3. Act as the first sales channel of the company.
 
 Toward achieving those overarching objectives, Poiesis's website requirement are presented as follows:
 
 1. A futuristic feeling should be observed.
-2. Engaging the visitor directly with a problem statement that speaks to the real pain of customer.
+2. Engaging the visitor directly with a problem statement that speaks to the real pain of the customer.
 3. A clear solution is laid out explaining why the visitor should consider Poiesis.
 4. A clear price presentation as to how much the customer will pay if chose to hire the company.
 5. A simple offer presentation, signaling a smooth and fast processes
@@ -44,7 +44,7 @@ Toward achieving those overarching objectives, Poiesis's website requirement are
 
 ## Website Visitor Expectations
 
-From the website's vistor persepective, the website should answer the following questioins:
+From the website's visitor perspective, the website should answer the following questions:
 
 1. How can this school be different from other driving schools?
 2. How can I acquire the license with less money and time?
@@ -59,13 +59,13 @@ From the website's vistor persepective, the website should answer the following 
 
 ## Testing
 
-The author has performed multiple tests during each stage of the development. In this document, however, the author presents only the most recent ones and goes swiftly over few issues from earlier tests that stand out.
+The author has performed multiple tests during each stage of the development. In this document, however, the author presents only the most recent ones and goes swiftly over a few issues from earlier tests that stand out.
 
-1. To adhere to the user experience best practice, the author decides to include a home link to the logo in the header. By doing so, however, the Wave evaluator showed an error of: adjacent links pointing to the same destination is not acceptable. Hence, the author reverts to the original arrangement, that is of not including such functionality to the logo. 
+1. To adhere to the user experience best practice, the author decides to include a home link to the logo in the header. By doing so, however, the Wave evaluator showed an error of adjacent links pointing to the same destination is not acceptable. Hence, the author reverts to the original arrangement, that is of not including such functionality to the logo. 
 
-2. An error observed by Lighthouse tool, the error states that some font sizes in the plans page is small to be accepted. Hence, and as a result the author increased the fonts to the acceptable size. Such action led to changes in multiple selectors properties.
+2. An error observed by Lighthouse tool, the error states that some font sizes in the plans page is small to be accepted. Hence, and as a result the author increased the fonts to an acceptable size. Such action led to changes in multiple selectors properties.
 
-3. The author faced a problem with Wave tool regarding the nav label that appears empty. Before that, the author has implemented a given set of steps to hide the label content without showing any accessibility errors. The solution functions very well, excepte that one of the properties, which is path, appeared to be deprecated. 
+3. The author faced a problem with Wave tool regarding the nav label that appears empty. Before that, the author has implemented a given set of steps to hide the label content without showing any accessibility errors. The solution functions very well, except that one of the properties, which is path, appeared to be deprecated. 
 
 4. The author could not find a solution to the aforementioned error. Therefore, the author improvised and removed the property, and to his surprise, the solution is still functioning. The author has no explanation as to why this is the case.
 
@@ -93,22 +93,23 @@ Foue tools/environment are used to test responsive and compatibility. These are:
 3. Firefox
 4. DevTools
 
-It is worth mentioning here, that while the author is checking the compatibility of the website across different browsers, he noticed some browsers where particularly problematic. They show an error within DevTools. The error is Unchecked runtime.lastError: The message port closed before a response was received.
+It is worth mentioning here, that while the author is checking the compatibility of the website across different browsers, he noticed some browsers were particularly problematic. They show an error within DevTools. The error is Unchecked runtime.lastError: The message port closed before a response was received.
 
-After some investigations, it appears that some ad-ons prevent any sort of communications between the website and the DevTools. The solution to such an issue is simply to remove those extensions one by one and check whether the error disappears. In our case, the author is happy to report that such a problem is resolved by that very action. The website is functional without issues on the three browsers mentioned above and without responsivity problems.
+After some investigations, it appears that some ad-ons prevent any sort of communication between the website and the DevTools. The solution to such an issue is simply to remove those extensions one by one and check whether the error disappears. In our case, the author is happy to report that such a problem is resolved by that very action. The website is functional without issues on the three browsers mentioned above and without responsivity problems.
 
 ------
 
-#### Test Resuts
+#### Test Results
 
 The list of captures here shows some of the tests before the submission:
 
 
 ##### Lighthouse Results
 
-The lighthouse results show some differences between the mobile and disktop tests. The latter has shown a siginifcantly better results. The author explination is that the size of the images in the case of the mobile, for some reason, degredates the performance of the website. 
+The lighthouse results show some differences between the mobile and desktop tests. The latter has shown a significantly better result. The author’s explanation is that the size of the images in the case of the mobile, for some reason, degrades the performance of the website. 
 
 ###### Mobile Test Results:
+
 
 Home Page
 
@@ -220,6 +221,6 @@ The following referenceses had a great impact on the author thinking and style f
 
 ## Achnowlegdment
 
-My sincere graduate and appreciation go to my mentor, Mr. David Bowers, for his valuable advice and laser-focused conversations. His inputs, tips and feedback have been no less than master class of coaching and mentorship. I am looking forward to working with him in the future on the next projects within the course of this program. 
+My sincere graduate and appreciation go to my mentor, Mr. David Bowers, for his valuable advice and laser-focused conversations. His way of providing inputs, tips and feedback is no less than master class of coaching and mentorship. I am looking forward to working with him in the future on the next projects within the course of this program. 
 
 My thanks and love go to my wife and daughter for their patience during the period of developing this project. I have not been around them enough during this period, yet they have been with me providing all the support and the help whenever I need. This is what nothing else can substitute in this life, having a loving and a supportive family. Thank you!
