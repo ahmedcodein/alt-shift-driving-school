@@ -8,6 +8,8 @@ Poiesis is a start-up company aims to disrupt the traditional driving school bus
 
 ![home page](assets/docs/responsive.png)
 
+------
+
 Exploiting those technologies will allow Poiesis to Alt and Shift the driving school business forever. 
 
 Poiesis technology allow it to serve its customer with:
@@ -20,7 +22,8 @@ Poiesis, the customer, has recruited a web developer, the author, to develop a w
 
 The website objectives are laid out in the next section. Thereafter, a description of a typical user need is presented to which the website is supposed to speak to those needs and make them engage with Poiesis.
 
-## Customer Requirement:
+------
+## Customer Requirements:
 
 The three overarching goals of the website are:
 
@@ -31,22 +34,21 @@ The three overarching goals of the website are:
 Toward achieving those overarching objectives, Poiesis's website requirement are presented as follows:
 
 1. A futuristic feeling should be observed.
-2. Engaging the visitor directly with a problem statement that speaks to the real pain of the potential customer.
-3. A true solution is laid out explaining why the visitor should consider Poiesis.
-4. A clear price presentation as to how much the customer will pay if chose to move to the next step in engaging with the company.
-5. An easy way in presenting the offers, signaling the customer a smooth and fast backend processes and approach
-6. A page where the visitor can reach out to the company to learn more about the offers, technology, process etc. in case the visitor is still hesitant to commit to any of the offered plans.
+2. Engaging the visitor directly with a problem statement that speaks to the real pain of customer.
+3. A clear solution is laid out explaining why the visitor should consider Poiesis.
+4. A clear price presentation as to how much the customer will pay if chose to hire the company.
+5. A simple offer presentation, signaling a smooth and fast processes
+6. A page where the visitor can reach out to the company to learn more about its offers, technology, etc.
 
-## The Website Visitor expectations
+------
 
-As per Poiesis marketing and sales team, the following aspects have been collected as to what the website visitor would expect and want to see in the Poiesis website.
+## Website Visitor Expectations
 
-1. a Website that speaks to driving license seekers by focusing on the following aspects, presented without order:
+From the website's vistor persepective, the website should answer the following questioins:
 
 1. How can this school be different from other driving schools?
 2. How can I acquire the license with less money and time?
-3. How can I enjoy the learning process yet still achieve my three main objectives, the driving license with less money and shorter duration.
-
+3. How can I enjoy the learning process yet still being able to achieve my three main objectives.
 
 ------
 
@@ -73,6 +75,8 @@ a) In the walkthrough project, Love Running, the instructor mentioned that such 
 
 b) The author read that some other students have considered this issue before without avail. 
 
+------
+
 ### Test tools and Final Tests captures
 
 Four tools are used to test the websites code, performance are accessibility. These are:
@@ -92,6 +96,8 @@ Foue tools/environment are used to test responsive and compatibility. These are:
 It is worth mentioning here, that while the author is checking the compatibility of the website across different browsers, he noticed some browsers where particularly problematic. They show an error within DevTools. The error is Unchecked runtime.lastError: The message port closed before a response was received.
 
 After some investigations, it appears that some ad-ons prevent any sort of communications between the website and the DevTools. The solution to such an issue is simply to remove those extensions one by one and check whether the error disappears. In our case, the author is happy to report that such a problem is resolved by that very action. The website is functional without issues on the three browsers mentioned above and without responsivity problems.
+
+------
 
 #### Test Resuts
 
@@ -182,6 +188,8 @@ Contact Page
 
 
 ## Deployment
+
+------
 
 ## Reference and Credits
 
