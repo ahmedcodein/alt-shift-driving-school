@@ -72,19 +72,19 @@ How can I enjoy the learning process yet still achieve my three main objectives,
 
 ## Testing
 
-The author has performed multiple tests during each stage of the development. In this document, however, the author presents only the most recent ones and goes swiftly over few issues from earlier tests that stands out.
+The author has performed multiple tests during each stage of the development. In this document, however, the author presents only the most recent ones and goes swiftly over few issues from earlier tests that stand out.
 
-1. To adhere to the user experience best practice, the author decides to include a home link to the logo. By doing so, however, the evaluator showed an error of adjacent links pointing to the same destination is not acceptable. Hence, the author reverts to the original arrangement of not including such functionality to the logo. 
+1. To adhere to the user experience best practice, the author decides to include a home link to the logo in the header. By doing so, however, the Wave evaluator showed an error of: adjacent links pointing to the same destination is not acceptable. Hence, the author reverts to the original arrangement, that is of not including such functionality to the logo. 
 
-2. An error observed by Lighthouse, the error states that some font sizes in the plans page is small to be accepted. Hence, and as a result the author increased the fonts to acceptable size leading to a change in multiple selectors properties.
+2. An error observed by Lighthouse tool, the error states that some font sizes in the plans page is small to be accepted. Hence, and as a result the author increased the fonts to the acceptable size. Such action led to changes in multiple selectors properties.
 
-3. The author faced a problem issue with wave regarding the nav label that appears empty. The author has implemented a given set of steps to hide the label content without showing any accessibility errors. The solution functions very well, accepting that one of the properties, which is path, appeared to be deprecated. 
+3. The author faced a problem with Wave tool regarding the nav label that appears empty. Before that, the author has implemented a given set of steps to hide the label content without showing any accessibility errors. The solution functions very well, excepte that one of the properties, which is path, appeared to be deprecated. 
 
-4. The author could not find a solution to the aforementioned error. Therefore, the author improvised and removed the property, and to his surprise, the solution is still functioning. The author has no explanation except that it works.
+4. The author could not find a solution to the aforementioned error. Therefore, the author improvised and removed the property, and to his surprise, the solution is still functioning. The author has no explanation as to why this is the case.
 
 5. CSS validator shows a warning, see the CSS validator captures below, regarding the imported Google Fonts. To the best knowledge of the author, there is no ready solution for this issue yet. The author can make such claim based on two facts:
 
-a) In the walkthrough project, Love Running, the instructor mentioned that such error is out of her control. Therefore, she does not consider this as an issue.
+a) In the walkthrough project, Love Running, the instructor mentioned that such error is out of developer control. Therefore, she does not consider this as an issue.
 
 b) The author read that some other students have considered this issue before without avail. 
 
@@ -104,9 +104,9 @@ Foue tools/environment are used to test responsive and compatibility. These are:
 3. Firefox
 4. DevTools
 
-It is worth mentioning on this occasion, that while the author is checking the compatibility of the website across different browsers, he noticed some browsers where particularly problematic. They show an error within DevTools. The error is Unchecked runtime.lastError: The message port closed before a response was received.
+It is worth mentioning here, that while the author is checking the compatibility of the website across different browsers, he noticed some browsers where particularly problematic. They show an error within DevTools. The error is Unchecked runtime.lastError: The message port closed before a response was received.
 
-After some investigations, it appears that some ad-ons prevent any sort of communications between the website and the DevTools. The solution to such an issue is simply to remove those extensions one by one and check whether the error disappears. In our case, the author is happy to report that such a problem is resolved by that action. The website is functional without issues on the three browsers mentioned above and without responsivity problems.
+After some investigations, it appears that some ad-ons prevent any sort of communications between the website and the DevTools. The solution to such an issue is simply to remove those extensions one by one and check whether the error disappears. In our case, the author is happy to report that such a problem is resolved by that very action. The website is functional without issues on the three browsers mentioned above and without responsivity problems.
 
 #### Test Resuts
 
@@ -115,7 +115,7 @@ The list of captures here shows some of the tests before the submission:
 
 ##### Lighthouse Results
 
-The lighthouse results show some differences between the mobile and disktop tests. The latter has shown a siginifcantly better results. The author explination is that the size of the images in the case of the mobile, for some reason, degredate the performance of the of the website on smaller screens. 
+The lighthouse results show some differences between the mobile and disktop tests. The latter has shown a siginifcantly better results. The author explination is that the size of the images in the case of the mobile, for some reason, degredates the performance of the website. 
 
 ###### Mobile Test Results:
 
@@ -145,7 +145,6 @@ Contact Page
 
 ![contact page](assets/docs/lighthouse-contact-dt.png)  
 
-
 ##### W3C Validator Results
 
 Home Page
@@ -172,7 +171,6 @@ Page Two of the Test
 
 ![css tests results two](assets/docs/w3c-css-two.png)
 
-
 Fix:
 
 Page One of the Test
@@ -182,11 +180,6 @@ Page One of the Test
 Page Two of the Test
 
 ![css tests results two](assets/docs/w3c-css-two_fix.png)
-
-
-
-
-
 
 ##### Wave Tests Results
 
@@ -200,7 +193,7 @@ Plans Page
 
 Contact Page
 
-![contact page](assets/docswave-contact.png)
+![contact page](assets/docs/wave-contact.png)
 
 
 ## Deployment
@@ -209,7 +202,7 @@ Contact Page
 
 ### References
 
-The following references's list has a great impact on the author thinking and style for development of the website. The author, to his best, tried to reference them either in the html or the CSS files where appropriate. However, if the author failed to do so in some places, it is only because of the time constrained. The credits and gratitude are given to each of them for the valuable help their content provided.
+The following referenceses had a great impact on the author thinking and style for developing the website. The author, to his best, tried to reference them either in the html or the CSS files where appropriate. However, if the author failed to do so in some places, it is only because of the time constrained. The credits and gratitude are given to each of them for the valuable help their contents provided.
 
 1. Code institute Learning Materials
 2. Learn Flexbox in 15 Minutes - YouTube channel Web Dev Simplified, [Learn Flexbox in 15 Minutes](https://www.youtube.com/watch?v=fYq5PXgSsbE)
@@ -224,16 +217,16 @@ The following references's list has a great impact on the author thinking and st
 
 ### Content, Media and Tools
 
-The images used in this project is created by OpenAI Chat GPT-4 based on the autthor instructions, [OpenAI Chat GPT-4](https://chat.openai.com/auth/login).
+1. The images used in this project is created by OpenAI Chat GPT-4 based on the autthor instructions, [OpenAI Chat GPT-4](https://chat.openai.com/auth/login).
 
-The social media icons and the Triple bar icon is downloaded from Font Awesome, [Font Awesome](https://fontawesome.com/).
+2. The social media icons and the Triple bar icon is downloaded from Font Awesome, [Font Awesome](https://fontawesome.com/).
 
-Google fonts is used to define the fonts in the stylesheet, [Google fonts](https://fonts.google.com/).
+3. Google fonts is used to define the fonts in the stylesheet, [Google fonts](https://fonts.google.com/).
 
-Wordcounter is used to track the number of characters of each git commit, [Wordcounter](https://wordcounter.net/character-count).
+3. Wordcounter is used to track the number of characters of each git commit, [Wordcounter](https://wordcounter.net/character-count).
 
 ## Achnowlegdment
 
-My sincere graduate and appreciation go to my mentor, Mr. David Bowers, for his valuable advice and laser-focused conversations. His inputs, tips and feedback have been no less than master class of coaching and mentorship. I am looking forward to working with him in future on the next projects within course of this study program. 
+My sincere graduate and appreciation go to my mentor, Mr. David Bowers, for his valuable advice and laser-focused conversations. His inputs, tips and feedback have been no less than master class of coaching and mentorship. I am looking forward to working with him in the future on the next projects within the course of this program. 
 
-My thanks and love go to my wife and daughter for their patience during the period of developing this project. I have not been around them enough during this period, yet they have been with me proving only the support and the help whenever I need some. This is what nothing else can substitute in this life, having a loving and a supportive family. Thank you!
+My thanks and love go to my wife and daughter for their patience during the period of developing this project. I have not been around them enough during this period, yet they have been with me providing all the support and the help whenever I need. This is what nothing else can substitute in this life, having a loving and a supportive family. Thank you!
