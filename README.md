@@ -105,7 +105,7 @@ Plans Page
 
 ![plans page, engaging information](assets/docs/engage-plans-dt.png)
 
-![plans page, invitation for action](assets/docs/action-plans.png)
+![plans page, invitation for action](assets/docs/action-plans-dt.png)
 
 Contact Page
 
