@@ -295,7 +295,6 @@ Contact Page
 
 ![contact page](assets/docs/wave-contact.png)
 
-
 ## Deployment
 
 The author has followed the following process for deployment:
@@ -306,7 +305,6 @@ The author has followed the following process for deployment:
 4. Under branch, select main
 3. Now select save
 4. Wait for couple of minutes to the website to go online
-
 
 ------
 
