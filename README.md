@@ -1,66 +1,51 @@
 # Poiesis
 
-Poiesis is a start-up company aims to disrupt the traditional driving school business. It is aiming to do so by combining two technologies into the business process. These are:
+Poiesis is a start-up company aims to disrupt the traditional driving school business. It wants to do so by combining two technologies into the business process. These are:
 
 1. Virtual Reality
 2. Process Automation
 
-Exploiting those technology will allow Poiesis to Alt and Shift the driving school business forever. 
 
-By exploiting those technology Poiesis can achieve three main business differentiated facts:
+![home page](assets/docs/responsive.png)
 
-1. Cost Advantage
+Exploiting those technologies will allow Poiesis to Alt and Shift the driving school business forever. 
 
-It is well known fact that technology is a deflationary force. Efficiency, speed and horizontal scalability are the main aspects of technology advantages.
+Poiesis technology allow it to serve its customer with:
 
-by employing VR technology with true physical interaction feeling with surrounding environment, Poiesis can have the advantage of saving significant capital cost to own or acquire cars. in addition, to a significant cost incurred along with owning a car, such as car maintenance, insurance etc.
-
-by its nature, the VR will also provide the possibility of having a digital instructure that can be visually appeared to sit beside the driver using.
-
+1. Cost Saving
 2. Fun Experience
+3. Flixibility
 
-Based on that business objective, Poiesis, the customer, has mandated a web developer, the author, to develop a website that supports its business objective. The website objective is laid out in the next section. Thereafter, a description of a typical user need is presented to which the website is supposed to drive the potential customer to use Poiesis offering.
+Poiesis, the customer, has recruited a web developer, the author, to develop a website that supports its business objectives of creating new customer base for its offering. 
 
-Customer Requirement:
+The website objectives are laid out in the next section. Thereafter, a description of a typical user need is presented to which the website is supposed to speak to those needs and make them engage with Poiesis.
 
-The website should achieve the following objective:
+## Customer Requirement:
 
 The three overarching goals of the website are:
 
-Educate the market about Poiesis new approach.
-Represent the main channel to reach the visitor to engage with her directly or indirectly/him.
-Act as the first sales channel to the customer.
+1. Educate the market about Poiesis new approach.
+2. Become the main channel to reach out to and intract with the custmer
+3. Act as the first sales channel of the company.
 
 Toward achieving those overarching objectives, Poiesis's website requirement are presented as follows:
 
-A futuristic feeling should be observed as a first impression of visitor.
-Engaging the visitor directly with a problem statement that speaks to the real pain of the potential customer.
-A true solution is laid out that explain in plain English why the visitor should consider. 
-Poiesis offering.
-A clear presentation of terms as to how much the customer will pay if chose to more to the next step of learning about the company.
-A direct and easy way in presenting the offers signaling the customer an smooth and fast backend processes and approach
-A page where the visitor can reach out to the company to learn more about the offers, technology, process etc. in case the visitor is still hesitant to commit to any of the offered plans.
+1. A futuristic feeling should be observed.
+2. Engaging the visitor directly with a problem statement that speaks to the real pain of the potential customer.
+3. A true solution is laid out explaining why the visitor should consider Poiesis.
+4. A clear price presentation as to how much the customer will pay if chose to move to the next step in engaging with the company.
+5. An easy way in presenting the offers, signaling the customer a smooth and fast backend processes and approach
+6. A page where the visitor can reach out to the company to learn more about the offers, technology, process etc. in case the visitor is still hesitant to commit to any of the offered plans.
 
-Visitor expectation
+## The Website Visitor expectations
 
-As per Poiesis marketing and sales team, the following aspects have been devised as what the website visitor would expect and want to see on the Poiesis website.
+As per Poiesis marketing and sales team, the following aspects have been collected as to what the website visitor would expect and want to see in the Poiesis website.
 
-Website that speaks to driving license seekers by focusing on the following aspects, presented without order:
+1. a Website that speaks to driving license seekers by focusing on the following aspects, presented without order:
 
-How can this school be different from other driving schools?
-How can I acquire the license with less money and time?
-How can I enjoy the learning process yet still achieve my three main objectives, the driving license with less money and shorter duration.
-
-
-
-
-
-
-
-
-
-
-
+1. How can this school be different from other driving schools?
+2. How can I acquire the license with less money and time?
+3. How can I enjoy the learning process yet still achieve my three main objectives, the driving license with less money and shorter duration.
 
 
 ------
@@ -88,7 +73,7 @@ a) In the walkthrough project, Love Running, the instructor mentioned that such 
 
 b) The author read that some other students have considered this issue before without avail. 
 
-### Test tools and final validation captures
+### Test tools and Final Tests captures
 
 Four tools are used to test the websites code, performance are accessibility. These are:
 
@@ -125,7 +110,7 @@ Home Page
 
 Plans Page
 
-![plans page](assets/docs/lighthouse-plans..png) 
+![plans page](assets/docs/lighthouse-plans.png) 
 
 Contact Page
 
