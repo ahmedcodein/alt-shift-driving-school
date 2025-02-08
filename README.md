@@ -339,4 +339,4 @@ The following referenceses had a great impact on the author thinking and style f
 
 My sincere graduate and appreciation go to my mentor, Mr. David Bowers, for his valuable advice and laser-focused conversations. His way of providing inputs, tips and feedback is no less than master class of coaching and mentorship. I am looking forward to working with him in the future on the next projects within the course of this program. 
 
-My thanks and love go to my wife and daughter for their patience during the period of developing this project. I have not been around them enough during this period, yet they have been with me providing all the support and the help whenever I need. This is what nothing else can substitute in this life, having a loving and a supportive family. Thank you!
+My thanks and love go to my wife and daughter for their patience during the period of developing this project. I have not been around them enough during this period, yet they have been with me providing all the support and the help whenever I need. This is what nothing else can substitute in this life, having a loving and supportive family. Thank you!
